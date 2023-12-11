@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8000:8000"
+      - 18000:8000
     volumes:
       - ./articles:/zenn/articles
     command: npx zenn preview
