@@ -9,4 +9,5 @@ services:
       - 18000:8000
     volumes:
       - ./articles:/zenn/articles
+      - ./images:/zenn/images
     command: npx zenn preview
